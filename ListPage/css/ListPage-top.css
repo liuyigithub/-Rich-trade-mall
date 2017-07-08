@@ -1,0 +1,234 @@
+#top {
+	height: 31px;
+	background: #fafafa;
+	border-bottom: 2px solid #e8e8e8;
+}
+
+.top-inner {
+	width: 1007px;
+	margin: 0 auto;
+	height: 31px;
+	
+}
+
+.section-top {
+	float: left;
+	line-height: 31px;
+}
+
+.section-top a {
+	color: #3683ec;
+}
+
+.list-top {
+	float: right;
+}
+
+.list-top div {
+	float: left;
+}
+
+.list-top .top2 a {
+	text-align: center;
+	line-height: 17px;
+	text-decoration: none;
+	color: #666666;
+}
+
+.top1 {
+	width: 79px;
+	height: 26px;
+	line-height: 26px;
+	margin-top: 2px;
+	position: relative;
+}
+.top1:hover{
+	background: #CCCCCC;
+	
+}
+
+.top1 i {
+	font-size: 7px;
+}
+
+.top1 .top1-a {
+	margin-left: 10px;
+	text-decoration: none;
+	color: #666666;
+}
+
+.top2 {
+	margin-top: 7px;
+}
+
+.top2 a {
+	padding: 0 13px;
+	border-left: 1px solid #CCCCCC;
+}
+
+.top3 {
+	color: #ff4400;
+	font-size: 10px;
+	font-weight: bold;
+	line-height: 29px;
+}
+
+.top3 i {
+	font-size: 15px;
+	margin-right: 7px;
+	margin-left: 10px;
+}
+
+.ul-list {
+	position: absolute;
+	top: 25px;	
+	background: #fafafa;
+	width: 79px;
+	display:none;
+}
+
+.ul-list li {
+	margin: 4px 0;
+	text-align: center;
+	height: 18px;
+	line-height: 18px;
+}
+
+
+/*以上是top部分*/
+
+#header {
+	height: 160px;
+	border-bottom: 3px solid #4593fd;
+}
+
+.header-inner {
+	width: 1007px;
+	margin: 0 auto;
+	height: 160px;
+}
+
+.header-inner-top {
+	overflow: hidden;
+}
+
+.logo {
+	float: left;
+	margin-top: 28px;
+}
+
+.input {
+	float: left;
+	margin-top: 40px;
+	margin-left: 72px;
+}
+
+.input label {
+	display: inline-block;
+	border: 2px solid #4593fd;
+	width: 444px;
+	height: 32px;
+}
+
+.text-input {
+	width: 372px;
+	height: 30px;
+	font-size: 11px;
+	outline: none;
+	border: 0;
+	border-right: 1px solid #cccccc;
+	float: left;
+	color: #c8c8c8;
+}
+
+.btn-input {
+	width: 69px;
+	-webkit-logical-width: 71px;
+	height: 32px;
+	background: #4593fd;
+	border: 0;
+	color: #FFFFFF;
+	font-size: 16px;
+	float: left;
+	cursor: pointer;
+}
+
+.input p {
+	margin-top: 9px;
+}
+
+.input p a {
+	color: #4593fd;
+	margin-left: 5px;
+}
+
+.shopp {
+	float: right;
+	width: 190px;
+	height: 36px;
+	line-height: 36px;
+	margin-top: 40px;
+	cursor: pointer;
+}
+
+.shopp-left {
+	float: left;
+	width: 100px;
+	padding-left: 0px;
+	background: #666666 url(../image/lol_03.png) no-repeat 5px center;
+	color: #FFFFFF;
+	font-size: 14px;
+	text-align: center;
+	overflow: hidden;
+}
+.shopp-left div{
+	width: 48px;
+	margin-left: 30px;
+	float: left;
+}
+.shopp-left span{
+	display:inline;
+	float: left;
+}
+
+.shopp-right {
+	float: left;
+	width: 80px;
+	text-align: center;
+	background: #f3f3f3;
+	/*color:#666;*/
+}
+.shopp-right:hover{
+	color:#666;
+}
+.ul-header {
+	margin-top: 25px;
+}
+
+.ul-header li a {
+	float: left;
+	width: 160px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.ul-header li:nth-child(3) a {
+	color: #4593fd;
+}
+
+.ul-header li a:hover {
+	color: #4593fd;
+}
+/*以上是header部分*/
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,109 @@
+.fixed-action{
+	width: 5px;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	background: #666666;
+}
+.fixed-top{
+	position: fixed;
+	top: 199px;
+	right: 5px;
+	
+}
+.fixed-top a{
+	display:block;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	background: #666;
+	color: #fff;
+	text-decoration: none;
+	margin-bottom: 5px;
+	z-index: 10;
+}
+.fixed-top i{
+	font-size: 25px;
+}
+
+.fixed-top a:hover{
+	background: #3683EC;
+}
+
+.fixed-bottom{
+	position: fixed;
+	top: 492px;
+	right: 5px;
+}
+.fixed-bottom a{
+	display:block;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	background: #666;
+	color: #fff;
+	text-decoration: none;
+	margin-bottom: 5px;
+	z-index: 10;
+	
+}
+.fixed-bottom a:hover{
+	background: #3683EC;
+}
+.fixed-bottom i{
+	font-size: 25px;
+}
+
+.cart1,.cart2,.cart3{
+	position: relative;
+}
+.cart1 .box,.cart2 .box,.cart3 .box{
+	position: absolute;
+	right: 35px;
+	width: 0px;
+	text-align: center;
+	height: 35px;
+	background:#3683EC ;
+	line-height: 35px;
+	font-size: 14px;
+	color: #fff;
+	opacity: 0;
+}
+.service1,.service2,.service3,.service4{
+	position: relative;
+}
+.service1 .box,.service4 .box-top,.service3 .box{
+	position: absolute;
+	right: 35px;
+	width: 0px;
+	text-align: center;
+	height: 35px;
+	background:#3683EC ;
+	line-height: 35px;
+	font-size: 14px;
+	color: #fff;
+	opacity: 0;
+}
+.service2 .pic-code{
+	position: absolute;
+	right: 35px;
+	width: 0px;
+	text-align: center;
+	height: 100px;
+	background:#025AD2;
+	line-height: 35px;
+	font-size: 14px;
+	color: #fff;
+	display: none;
+	line-height: 20px;
+	top: -25px;
+}
+.service2 .pic-code img{
+	width: 70px;
+	height: 70px;
+	margin-top: 10px;
+	margin-left: 10px;
+}

@@ -1,0 +1,488 @@
+#main {
+	background: #f9f9f9;
+}
+
+.main-inner {
+	width: 1007px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.banner {
+	width: 1007px;
+	height: 380px;
+	position: relative;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.list-pic {
+	width: 7049px;
+	height: 380px;
+	position: absolute;
+	left: -1007px;
+}
+
+.list-pic li {
+	float: left;
+}
+
+.list-circle {
+	position: absolute;
+	top: 325px;
+	left: 390px;
+}
+
+.list-circle li {
+	float: left;
+	width: 10px;
+	height: 10px;
+	background: #fff;
+	margin-left: 30px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.list-circle .select {
+	width: 30px;
+	background: none;
+	border: 2px solid #FFFFFF;
+	height: 8px;
+}
+
+.btn {
+	width: 40px;
+	height: 60px;
+	background: url(../image/btn_03.png);
+	position: absolute;
+	top: 145px;
+	cursor: pointer;	
+	display: none;
+}
+
+#right {
+	right: 0;
+	background: url(../image/btn_05.png);
+}
+
+
+/*以上是banner部分*/
+
+.main1 {
+	height: 150px;
+	margin-top: 10px;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+}
+.main1-text .text-1 {
+	float: left;
+	background: #6699cc;
+	color: #ffffff;
+	text-align: center;
+	width: 96px;
+	padding: 20px 3px 45px 3px;
+}
+
+.main1-text:nth-child(2) .text-1 {
+	background: #669966;
+}
+
+.main1-text:nth-child(3) .text-1 {
+	background: #d0ac62;
+}
+
+.main1-text:nth-child(4) .text-1 {
+	background: #964b96;
+}
+
+.text-1 dt {
+	line-height: 43px;
+	font-size: 15px;
+	border-bottom: 1px solid #FFFFFF;
+	margin-bottom: 8px;
+}
+
+.text-1 dd {
+	margin-top: 5px;
+	font-size: 11px;
+}
+
+.main1-text a {
+	float: left;
+	width: 148px;
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/*以上是main1样式*/
+
+.main2 {
+	margin-top: 20px;
+	height: 318px;
+}
+
+.title-main2 {
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 2px solid #cccccc;
+	overflow: hidden;
+}
+
+.title-main2 h2 {
+	width: 80px;
+	font-size: 18px;
+	float: left;
+}
+
+.title-main2 span {
+	float: left;
+}
+
+.title-main2 .more {
+	float: right;
+}
+
+.title-main2 .more:hover {
+	color: #4593fd;
+}
+
+.main2-text {
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.dl-text {
+	text-align: center;
+	height: 275px;
+	width: 245px;
+	background: #ffffff;
+	border-right: 1px solid #CCCCCC;
+}
+
+.main2-text .dl-text:last-child{
+	border-right:1px solid #fff;
+}
+
+.main2-text .dl-text:hover{
+	border-bottom: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	transform: translateY(-1px);
+
+}
+.dl-text dt {
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.dl-text dd:nth-child(3) {
+	color: #f42e2d;
+	line-height: 29px;
+	font-size: 14px;
+}
+
+.dl-text dd a {
+	width: 150px;
+	height: 20px;
+	display: inline-block;
+	background: #666666;
+	line-height: 20px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/*以上是main2样式*/
+.main3 {
+	margin-top: 20px;
+}
+
+.title-main3 {
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 2px solid #cccccc;
+	overflow: hidden;
+}
+
+.title-main3 h2 {
+	width: 80px;
+	font-size: 18px;
+	float: left;
+}
+
+.title-main3 span {
+	float: left;
+}
+
+.title-main3 .more {
+	float: right;
+}
+
+.title-main3 .more:hover {
+	color: #4593fd;
+}
+
+.main3-text{
+	overflow: hidden;
+	margin-top: 10px;
+}
+.carousel{
+	width: 250px;height: 480px;
+	position: relative;
+	float: left;
+	margin-right: 2px;
+}
+.carousel img{
+	width: 100%;height: 100%;
+}
+.carousel .btn1{
+	width: 40px;
+	height: 60px;
+	background: url(../image/btn_03.png);
+	position: absolute;
+	top: 213px;
+	cursor: pointer;	
+	display: none;
+	opacity: 0.5;
+}
+.carousel #right1{
+	right: 0;
+	background: url(../image/btn_05.png);
+}
+.main3-pic{
+	width: 755px;
+	height: 481px;
+	float: left;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	align-content: space-between;
+	
+}
+.dl-pic{
+	text-align: center;
+	background: #FFFFFF;
+	width: 250px;
+	height: 239px;
+	border-bottom: 1px solid #f9f9f9;
+	border-right: 1px solid #f9f9f9;
+	
+}
+.dl-pic:hover{
+	border-bottom: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	transform: translateY(-1px);
+}
+.dl-pic dt{	
+	height: 160px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.dl-pic dd:nth-child(3) {
+	color: red;
+	line-height: 29px;
+}
+
+/*以上是main3部分样式*/
+
+
+.main4 {
+	margin-top: 20px;
+	height: 318px;
+}
+
+.title-main4 {
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 2px solid #cccccc;
+	overflow: hidden;
+}
+
+.title-main4 h2 {
+	width: 80px;
+	font-size: 18px;
+	float: left;
+}
+
+.title-main4 span {
+	float: left;
+}
+
+.title-main4 .more {
+	float: right;
+}
+
+.title-main4 .more:hover {
+	color: #4593fd;
+}
+
+.main4-text {
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.dl-text {
+	text-align: center;
+	height: 275px;
+	width: 245px;
+	background: #ffffff;
+	border-right: 1px solid #ccc;
+}
+.main4-text .dl-text:last-child{
+	border-right:1px solid #fff;
+}
+
+.main4-text .dl-text:hover{
+	border-bottom: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	transform: translateY(-1px);
+
+}
+.dl-text dt {
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.dl-text dd:nth-child(3) {
+	color: #f42e2d;
+	line-height: 29px;
+}
+
+.dl-text dd a {
+	width: 150px;
+	height: 20px;
+	display: inline-block;
+	background: #666666;
+	line-height: 20px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/*以上是main4样式*/
+.context{
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+/*以上是context样式*/
+.main5{
+	margin-bottom: 40px;
+}
+.title-main5 {
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 2px solid #cccccc;
+	overflow: hidden;
+}
+
+.title-main5 h2 {
+	width: 80px;
+	font-size: 18px;
+	float: left;
+}
+
+.title-main5 span {
+	float: left;
+}
+.main5-content{
+	background: #FFFFFF;
+	overflow: hidden;
+	margin-top: 10px;
+	
+}
+.content-left{
+	width:219px;padding-left: 30px;
+	height: 280px;
+	overflow: hidden;
+	float: left;
+	
+}
+.content-left h3{
+	margin-top: 25px;text-indent:5px ;
+	font-size: 15px;
+	margin-bottom: 17px;
+}
+.main5-list{
+	margin-top: 5px;
+}
+.main5-list li{
+	line-height: 22px;
+}
+.main5-list li a{
+	text-decoration: none;
+	font-size: 14px;
+}
+.main5-list li a span{
+	color: #4593fd;
+}
+.content-center{
+	float: left;
+	margin-left: 80px;
+}
+.content-center h3{
+	margin-top: 25px;
+	text-indent: 10px;
+	margin-bottom: 11px;
+}
+.content-center h3 a{
+	font-size: 16px;
+	text-decoration: none;	
+}
+.main5-list2 li{
+	height: 26px;
+	line-height: 26px;
+}
+.main5-list2 li a{
+	text-decoration: none;
+	font-size: 14px;
+}
+.main5-list2 li a span{
+	color:#4593fd ;
+}
+.main5-list2 li i{
+	font-size: 18px;
+}
+.content-right{
+	float: left;
+	margin-left: 96px;
+}
+.content-right h3{
+	margin-top: 25px;
+	text-indent: 10px;
+	margin-bottom: 11px;
+}
+.content-right h3 a{
+	font-size: 16px;
+	text-decoration: none;		
+}
+.main5-list3 li{
+	position: relative;
+	height: 26px;
+	line-height: 26px;
+}
+.main5-list3 li a{
+	width: 180px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-decoration: none;
+	font-size: 14px;
+	display: inline-block;
+	text-indent: 20px;
+}
+.main5-list3 li i{
+	font-size: 18px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+/*以上是main5样式*/

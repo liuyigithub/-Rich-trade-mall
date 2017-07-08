@@ -1,0 +1,202 @@
+#footer {
+	background: #FFFFFF;
+	margin-top: 20px;
+}
+
+.footer-top {
+	height: 123px;
+	background: #025ad2;
+	overflow: hidden;
+	margin-bottom: 1px;
+}
+
+.list-icon {
+	width: 1007px;
+	margin: 30px auto 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.list-icon li {
+	color: #FFFFFF;
+	width: 113px;
+	height: 62px;
+}
+
+.list-icon li i {
+	display: inline-block;
+	float: left;
+	width: 53px;
+	height: 53px;
+	background: url(../image/pic_03.png) no-repeat;
+	margin-right: 10px;
+}
+
+.list-icon li b {
+	font-size: 24px;
+	float: left;
+}
+
+.list-icon li span {
+	float: left;
+	height: 28px;
+	width: 48px;
+}
+
+.list-icon li:nth-child(2) i {
+	background: url(../image/pic_05.png) no-repeat;
+}
+
+.list-icon li:nth-child(3) i {
+	background: url(../image/pic_07.png) no-repeat;
+}
+
+.list-icon li:nth-child(4) i {
+	background: url(../image/pic_09.png) no-repeat;
+}
+
+.list-icon li:nth-child(5) i {
+	background: url(../image/pic_11.png) no-repeat;
+}
+
+
+/*以上是footer-top部分*/
+
+.footer-inner {
+	width: 1007px;
+	margin: 0 auto;
+	border-top: 1px solid #CCCCCC;
+}
+
+.footer-inner-top {
+	overflow: hidden;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.footer-content {
+	width: 625px;
+	display: flex;
+	justify-content: space-around;
+	float: left;
+}
+
+.footer-content dl dt a {
+	color: #333;
+}
+
+.footer-content dl a {
+	color: #666;
+}
+
+.footer-content dl {
+	width: 125px;
+	text-align: center;
+}
+
+.footer-content dl dt {
+	font-size: 16px;
+	line-height: 28px;
+}
+
+.footer-content dl dd {
+	line-height: 22px;
+	cursor: pointer;
+}
+
+.footer-phone {
+	float: left;
+	margin-left: 80px;
+}
+
+.footer-phone p:nth-child(1) {
+	color: #f70;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.footer-phone p:nth-child(1) i {
+	font-size: 37px;
+}
+
+.footer-phone p {
+	width: 235px;
+	font-size: 14px;
+	text-align: center;
+}
+
+.footer-phone p:nth-child(3) {
+	line-height: 21px;
+}
+
+.code a {
+	display: inline-block;
+	width: 56px;
+	height: 66px;
+	background: url(../image/pic_19.png) no-repeat;
+	float: left;
+	margin-left: 34px;
+}
+
+.code dl {
+	float: left;
+	margin-left: 30px;
+	text-align: center;
+}
+
+.code dl dt {
+	width: 65px;
+	height: 65px;
+	background: url(../image/qr-code.jpg) no-repeat;
+	background-size: cover;
+}
+
+.link-list span {
+	line-height: 19px;
+	color: #999999;
+}
+
+.link-list span a {
+	display: inline-block;
+	color: #999999;
+}
+
+.link-list p {
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	color: #999999;
+}
+
+.link-list .police {
+	text-align: center;
+}
+
+.link-list .police a {
+	display: inline-block;
+	border: 1px solid #ccc;
+	width: 110px;
+	height: 40px;
+	padding: 5px;
+	margin: 6px;
+	vertical-align: middle
+}
+
+.police a img {
+	float: left;
+	width: 35px;
+	height: 40px;
+}
+
+.police a span {
+	float: left;
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.police a:last-child {
+	padding: 0px;
+	width: 127px;
+	height: 47px;
+	background: url(../image/cnnic.png) no-repeat;
+}
